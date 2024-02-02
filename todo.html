@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>My To-Do List</title>
+</head>
+
+<body class="body">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column">
+        <h1 class="h1">My To-Do List</h1>
+        <div style="flex-direction: row; justify-content: center; display: flex; gap: 20px;" id="app">
+            <input type="text" class="input" placeholder="Enter your task here..." id="taskInput">
+            <button class="button" onclick="add()">Add</button>
+        </div>
+        <div>
+            <ul id="taskList" class="ul"></ul>
+            <li onclick="toggleCompleted(this)">
+                <span class="task-text"></span>
+                <span class="delete-icon" onclick="deleteTask(this)">🗑️</span>
+            </li>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>

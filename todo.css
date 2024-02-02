@@ -1,0 +1,61 @@
+.body{
+    display: flex;
+    background-color: aquamarine;
+    background-image: url(https://img.freepik.com/free-photo/abstract-dark-background-with-flowing-colouful-waves_1048-13124.jpg?size=626&ext=jpg&ga=GA1.1.669537450.1704542769&semt=ais);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.h1{
+    text-align: center;
+    color: aquamarine;
+    font-size: 50px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    border: none;
+    background-color: rgb(199, 235, 247);
+    color: black;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ddd;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;  
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.delete-icon {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.task-text {
+    margin-right: 10px;
+}
